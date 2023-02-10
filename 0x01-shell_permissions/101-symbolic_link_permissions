@@ -1,0 +1,12 @@
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien   44 Sep 20 15:12 101-symbolic_link_permissions
+-rw-rw-r-- 1 julien julien   23 Sep 20 14:25 hello
+lrwxrwxrwx 1 julien julien    5 Sep 20 15:10 _hello -> hello
+julien@ubuntu:/tmp/h$ sudo ./101-symbolic_link_permissions 
+julien@ubuntu:/tmp/h$ ls -l
+total 24
+-rwxrwxr-x 1 julien julien      44 Sep 20 15:12 101-symbolic_link_permissions
+-rw-rw-r-- 1 julien julien      23 Sep 20 14:25 hello
+lrwxrwxrwx 1 vincent  staff    5 Sep 20 15:10 _hello -> hello
+julien@ubuntu:/tmp/h$ 
